@@ -18,8 +18,8 @@ class String
     binding.pry
     split_sentence = self.split('.')
     split_sentence.each_with_index do |str, index|
-      if str.include?("?")
-        split_sentence[index] = str.split('?')
+      if str == ''
+        split_sentence.delete_at[index]
       end #do
     split_sentence.length
   end
