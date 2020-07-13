@@ -16,7 +16,11 @@ class String
 
   def count_sentences
     binding.pry
-    split_sentence = self.split(/[?!.]/)
+    split_sentence = self.split(/[?!\.]/)
+    # split_sentence.each_with_index do |str, index|
+    #   if str.length == 0
+    #     split_sentence.delete_at(index)
+    # end# do
     split_sentence.length
   end
 end
