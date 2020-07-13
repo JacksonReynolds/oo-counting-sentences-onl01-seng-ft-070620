@@ -20,7 +20,7 @@ class String
       if str.length == 0
         split_sentence.delete_at(index)
     end# do
-    
+
     #   binding.pry
     split_sentence.length
   end
