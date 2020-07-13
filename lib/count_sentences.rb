@@ -19,6 +19,7 @@ class String
     split_sentence.each_with_index do |str, index|
       if str.length == 0
         split_sentence.delete_at(index)
+      end #if
     end# do
 
     #   binding.pry
